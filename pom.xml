@@ -47,6 +47,16 @@
 http://localhost:8081/nexus/content/repositories/ARTECH/
 </url>
 </repository>
+<repository>
+  <id>sai</id>
+  <url>https://pkgs.dev.azure.com/kokkantisaikiran/sai/_packaging/sai/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 <snapshotRepository>	
 <id>luckysnap</id>
 <url>
